@@ -44,6 +44,8 @@ objects:
             value: "${TCMU_LOGDIR}"
           - name: GB_LOGDIR
             value: "/var/log/glusterfs/gluster-block"
+          - name: DM_DISABLE_UDEV
+            value: "1"
           resources:
             requests:
               memory: 100Mi
